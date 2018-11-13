@@ -1,0 +1,187 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User can navigate to product information of their choice",
+    "line": 1,
+    "id": "user-can-navigate-to-product-information-of-their-choice",
+    "tags": [],
+    "uri": "features/bloom_wild.feature",
+    "elements": [
+      {
+        "id": "user-can-navigate-to-product-information-of-their-choice;user-can-find-products-for-birthdays",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User can find products for birthdays",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the bloom and wild homepage",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on Occasions",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I select Birthday",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be taken to the Birthday flowers listings",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on More Info",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the product information is displayed",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-can-navigate-to-product-information-of-their-choice;user-can-change-product-they-send-to-a-recipient",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User can change product they send to a recipient",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the bloom and wild homepage",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on Occasions",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click SEND on my chosen product",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I am taken to the product order form",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click to change the product I want",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the product order form is no longer displayed",
+            "match": {
+              "location": "step_definitions/bloom_wild.js:82"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -25,7 +25,7 @@ module.exports = {
   },
   "test_settings": {
     "default": {
-      "launch_url": "https://www.public.shared.qa.noths.com/hellosatveer/product/cats-cats-cats",
+      "launch_url": "",
       "selenium_port": 4444,
       "selenium_host": "localhost",
       "silent": true,
